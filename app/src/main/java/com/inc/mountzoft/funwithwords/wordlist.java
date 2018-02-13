@@ -81,4 +81,9 @@ public class wordlist extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {}
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
